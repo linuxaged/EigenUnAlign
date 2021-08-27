@@ -1,7 +1,7 @@
 #include "mylib.h"
 
 MyLib::MyLib() {
-	_mat.setIdentity();
+	m_planeMatrix.setIdentity();
 }
 
 MyLib::~MyLib() {

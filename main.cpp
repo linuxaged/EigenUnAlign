@@ -1,9 +1,16 @@
 #include "mylib/defines.h"
 #include "mylib/mylib.h"
+#include <afx.h>
+
+class Dlg {
+public:
+	DECLARE_DYNCREATE(Dlg)
+private:
+	MyLib lib;
+};
 
 int main(int argc, char const *argv[])
 {
-	MyLib* p = new MyLib;
-	delete p;
+	Dlg dlg;
 	return 0;
 }
